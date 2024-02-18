@@ -33,7 +33,6 @@ public class Bullet : MonoBehaviour
         // что означает, что это враг
         if (enemy != null)
         {
-            Debug.Log("Damage");
             // ≈сли это враг, наносим ему урон
             enemy.TakeDamage(damage);
             // » уничтожаем пулю
