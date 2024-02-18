@@ -34,5 +34,4 @@ public class Weapon : MonoBehaviour
         // ¬ключаем возможность стрельбы
         canFire = true;
     }
-
 }

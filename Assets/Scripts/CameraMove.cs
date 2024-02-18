@@ -2,7 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class Cameramovement : MonoBehaviour
+public class CameraMove : MonoBehaviour
 {
     void Update()
     {
