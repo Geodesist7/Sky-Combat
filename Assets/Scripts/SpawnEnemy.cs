@@ -55,6 +55,14 @@ public class SpawnEnemy : MonoBehaviour
         // «апускаем спавн первой волны
         SpawnWave();
     }
+    private void Update()
+    {
+        // ѕровер€ем, закончилась ли текуща€ волна и уничтожены ли все враги
+        if (currentWave == wavesCount && enemiesSpawned == enemiesPerWave && GameObject.FindGameObjectsWithTag("Enemy").Length == 0)
+        {
+            uiManager.DisplayVictoryMessage();
+        }
+    }
 
     void SpawnWave()
     {
@@ -119,11 +127,7 @@ public class SpawnEnemy : MonoBehaviour
             yield return new WaitForSeconds(timeBetweenWaves);
             SpawnWave();
         }
-        else
-        {
-            // ≈сли это последн€€ волна, показываем сообщение о победе
-            uiManager.DisplayVictoryMessage();
-        }
+        
     }
    
 }

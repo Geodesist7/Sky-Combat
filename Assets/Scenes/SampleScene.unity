@@ -713,14 +713,14 @@ MonoBehaviour:
   target: {fileID: 418847573}
   wavesCount: 3
   enemiesPerWave: 3
-  timeBetweenWaves: 5
+  timeBetweenWaves: 4
   spawnInterval: 3
   wave1Enemies:
-  - {fileID: 6839289290424218708, guid: 3cf45b2dd0e1dd64fac9a055b98ec04f, type: 3}
+  - {fileID: 3549558004404097030, guid: 0723c3093c713c340a6c35e921458d7b, type: 3}
   wave2Enemies:
-  - {fileID: 3571969032128111691, guid: c8c18e9830cc27240a17f7aae3c9838e, type: 3}
+  - {fileID: 8964786276025712131, guid: c6547c96a6c560347817e84ec63d38f4, type: 3}
   wave3Enemies:
-  - {fileID: 4234125169591659818, guid: 208a81fc40f35964d886de6ea05a9ad9, type: 3}
+  - {fileID: 178139277931543213, guid: 65b791143b58a0c4a935b59ab42d152f, type: 3}
   uiManager: {fileID: 552701128}
 --- !u!4 &964651663
 Transform:
