@@ -267,6 +267,7 @@ GameObject:
   - component: {fileID: 570937818674662931}
   - component: {fileID: 1879855121904767754}
   - component: {fileID: 7375419080260471389}
+  - component: {fileID: -572992652369719956}
   m_Layer: 0
   m_Name: Enemy2.2
   m_TagString: Enemy
@@ -402,3 +403,21 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   maxHealth: 100
   healthBarImage: {fileID: 8491852866358737458}
+--- !u!114 &-572992652369719956
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8964786276025712131}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 03e36a4535ce964408c3823b54ff1fd5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  projectilePrefab: {fileID: 7959370055094567624, guid: fc90238670548a146a487b1c937eb5e5,
+    type: 3}
+  damage: 20
+  fireRate: 1
+  projectileSpeed: 10
+  offsetDistance: 5

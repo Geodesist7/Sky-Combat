@@ -8,6 +8,7 @@ public class UIManager : MonoBehaviour
 {
     public TextMeshProUGUI waveText; // —сылка на TextMeshPro дл€ номера волны
     public TextMeshProUGUI victoryText; // —сылка на TextMeshPro дл€ сообщени€ о победе
+    public TextMeshProUGUI deadText; // —сылка на TextMeshPro дл€ сообщени€ о победе
 
     public void UpdateWaveNumber(int currentWave, int totalWaves)
     {
@@ -17,5 +18,9 @@ public class UIManager : MonoBehaviour
     public void DisplayVictoryMessage()
     {
         victoryText.text = "You Win!";
+    }
+    public void DisplayDeadMessage()
+    {
+        victoryText.text = "You Lose!";
     }
 }
